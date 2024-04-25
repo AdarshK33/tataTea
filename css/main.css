@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'FedraSansStdLight17250';
+    src: url('./fonts/FedraSansStdLight17250.ttf');
+}
+
+@font-face {
+    font-family: 'OPENSANS-REGULAR';
+    src: url('./fonts/OPENSANS-REGULAR.ttf');
+}
+
+@font-face {
+    font-family: 'OPENSANS-SEMIBOLD';
+    src: url('./fonts/OPENSANS-SEMIBOLD.ttf');
+}
+
+
+/* <index2> */
+
+.thank h1 {
+    width: 100%;
+    font-family: 'OPENSANS-SEMIBOLD';
+    margin-top: 35px;
+    color: red;
+}
+
+.detail p {
+    width: 100%;
+    font-size: 17px;
+    font-family: 'OPENSANS-SEMIBOLD';
+}
+
+.knowmore {
+    margin-top: 10px;
+}
+
+.button2 {
+    margin-top: 10px;
+    border: 1px solid red;
+    color: white;
+    background-color: rgb(241, 99, 99);
+    padding: 12px 39px;
+    border-radius: 4px;
+    margin-left: 4px;
+}
+
+.button2 {
+    text-decoration: none;
+}
+
+.button2:hover {
+    background-color: red;
+}
+
+.share h4 {
+    width: 100%;
+    margin-top: 40px;
+    font-size: 17px;
+    font-family: 'FedraSansStdLight17250';
+}
+
+.share .fb .facebook {
+    float: left;
+}
+
+.share .fb.twitter img {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.share .fb .facebook img {
+    width: 150px;
+}
+
+
+/* </index2> */
+
+body {
+    margin: 0px;
+}
+
+#container {
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.icon {
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    float: right;
+}
+
+form {
+    font-family: 'FedraSansStdLight17250';
+}
+
+.group {
+    margin-top: 40px;
+}
+
+input[type='text'],
+[id='email'] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid pink;
+    height: 30px;
+    outline-color: transparent;
+    opacity: .7;
+}
+
+.hidden {
+    display: none;
+}
+
+span {
+    color: red;
+    font-display: 'FedraSansStdLight17250';
+    font-size: 12px;
+}
+
+.inputname {
+    padding-bottom: 40px;
+}
+
+.checkbox {
+    margin-top: 40px;
+}
+
+.checkbox a {
+    font-size: 12px;
+    font-family: 'FedraSansStdLight17250';
+}
+
+.text {
+    margin-top: 60px;
+}
+
+.text input {
+    font-family: 'FedraSansStdLight17250';
+    height: 30px;
+    outline-color: transparent;
+    font-style: italic;
+    opacity: .7;
+}
+
+.button1 {
+    margin-top: 10px;
+    border: 1px solid red;
+    color: white;
+    background-color: rgb(241, 99, 99);
+    padding: 9px 11px;
+    border-radius: 4px;
+    font-family: 'FedraSansStdLight17250';
+}
+
+.button1:hover {
+    background-color: red;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    /* background-image: url("footer-photo.jpg");
+        background-repeat: no-repeat; */
+}
+
+.photo img {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.text p {
+    float: right;
+    opacity: .5;
+    font-size: 15px;
+}
+
+
+/* popup */
+
+.model {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000ad;
+    z-index: 999;
+    text-align: center;
+}
+
+.model .notice {
+    width: 80%;
+    margin: auto;
+    margin-top: 230px;
+    background-color: white;
+    padding: 20px;
+}
+
+#close,
+.button1,
+#check {
+    cursor: pointer;
+}
+
+button.button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

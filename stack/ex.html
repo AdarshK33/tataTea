@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> tea </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="img/logo01.png" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+</head>
+
+<body>
+    <form>
+        <input name="time" value="hello"><br>
+        <input name="date" value="hello"><br>
+        <input name="submit" type="submit" value="Submit">
+    </form>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script>
+        $(function() {
+            $('form').bind('click', function(event) {
+
+                event.preventDefault(); // using this page stop being refreshing 
+
+                $.ajax({
+                    type: 'POST',
+                    url: 'ex.php',
+                    data: $('form').serialize(),
+                    success: function() {
+                        alert('form was submitted');
+                    }
+                });
+
+            });
+        });
+    </script>
+</body>
+
+</html>
